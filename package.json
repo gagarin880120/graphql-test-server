@@ -1,0 +1,28 @@
+{
+  "name": "graphql-test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagarin880120/graphql-test-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagarin880120/graphql-test-server/issues"
+  },
+  "homepage": "https://github.com/gagarin880120/graphql-test-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "dataloader": "^2.0.0",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
